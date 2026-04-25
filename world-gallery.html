@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeBook | World Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body class="gallery-page">
+    <nav class="navbar">
+        <div class="logo">RecipeBook</div>
+        <button class="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <div class="nav-panel" id="primary-nav">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="recipes.html">AllRecipes</a></li>
+                <li><a href="recipes.html#country-pages">By Country</a></li>
+            </ul>
+            <div id="search" class="search">
+                <input type="text" placeholder="Search recipes..." aria-label="Search recipes">
+            </div>
+        </div>
+    </nav>
+    <main class="page-shell">
+        <section class="gallery-hero">
+            <p class="eyebrow">Page 5</p>
+            <h1>All Recipes Around the World</h1>
+            <p class="lead">This gallery brings every recipe in RecipeBook into one visual page. Each recipe card includes a photo and links to its detailed country page with ingredients and cooking instructions.</p>
+        </section>
+
+        <section class="recipe-summary" aria-label="World gallery highlights">
+            <article class="summary-card">
+                <span class="summary-number">24</span>
+                <p>Page 5 now includes more recipes, with three dishes shown for each featured country.</p>
+            </article>
+            <article class="summary-card">
+                <span class="summary-number">8</span>
+                <p>The recipes are separated by country so each cuisine feels clearer and easier to browse.</p>
+            </article>
+            <article class="summary-card">
+                <span class="summary-number">4</span>
+                <p>Each featured country page now includes ingredients and cooking instructions for the recipes shown here.</p>
+            </article>
+        </section>
+
+        <section class="gallery-grid" aria-label="World recipe photo gallery">
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Asia</span>
+                        <h2>Philippines</h2>
+                        <p>Classic Filipino comfort food with bold savory, sour, and rich peanut-based flavors.</p>
+                    </div>
+                    <a class="gallery-country-link" href="philippines.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Adobo_DSCF4391.jpg/330px-Adobo_DSCF4391.jpg" alt="Chicken Adobo from the Philippines" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Chicken Adobo</h3>
+                            <p>Chicken braised with soy sauce, vinegar, garlic, and peppercorns.</p>
+                            <div class="gallery-card-meta">
+                                <span>Soy-vinegar braise</span>
+                                <span>Philippines</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/The_Best_Sinigang_Cuisine.jpg/330px-The_Best_Sinigang_Cuisine.jpg" alt="Sinigang from the Philippines" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Sinigang</h3>
+                            <p>A sour soup with tamarind broth, vegetables, and meat or seafood.</p>
+                            <div class="gallery-card-meta">
+                                <span>Comfort soup</span>
+                                <span>Philippines</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mac_MG_5939.jpg/330px-Mac_MG_5939.jpg" alt="Kare-Kare from the Philippines" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Kare-Kare</h3>
+                            <p>Rich peanut stew usually served with vegetables and bagoong.</p>
+                            <div class="gallery-card-meta">
+                                <span>Peanut stew</span>
+                                <span>Philippines</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Asia</span>
+                        <h2>Thailand</h2>
+                        <p>Bright Thai cooking built around noodles, herbs, curry, citrus, and layered spice.</p>
+                    </div>
+                    <a class="gallery-country-link" href="thailand.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/330px-Phat_Thai_kung_Chang_Khien_street_stall.jpg" alt="Pad Thai from Thailand" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Pad Thai</h3>
+                            <p>Rice noodles stir-fried with sauce, egg, peanuts, and lime.</p>
+                            <div class="gallery-card-meta">
+                                <span>Noodle stir-fry</span>
+                                <span>Thailand</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tom_yam_kung_maenam.jpg/330px-Tom_yam_kung_maenam.jpg" alt="Tom Yum from Thailand" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Tom Yum</h3>
+                            <p>Hot and sour soup with shrimp, lemongrass, chili, and lime.</p>
+                            <div class="gallery-card-meta">
+                                <span>Hot sour soup</span>
+                                <span>Thailand</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Red_roast_duck_curry.jpg/330px-Red_roast_duck_curry.jpg" alt="Thai curry from Thailand" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Thai Curry</h3>
+                            <p>Creamy curry with coconut milk, herbs, and strong aromatic spice.</p>
+                            <div class="gallery-card-meta">
+                                <span>Coconut curry</span>
+                                <span>Thailand</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Asia</span>
+                        <h2>India</h2>
+                        <p>Indian dishes here focus on deep spice, long-cooked rice, smoky roasting, and creamy sauces.</p>
+                    </div>
+                    <a class="gallery-country-link" href="india.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/330px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg" alt="Butter Chicken from India" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Butter Chicken</h3>
+                            <p>Tender chicken in a creamy tomato sauce with warm spices.</p>
+                            <div class="gallery-card-meta">
+                                <span>Creamy tomato sauce</span>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg/330px-%22Hyderabadi_Dum_Biryani%22.jpg" alt="Biryani from India" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Biryani</h3>
+                            <p>Fragrant layered rice dish cooked with spices, meat, and herbs.</p>
+                            <div class="gallery-card-meta">
+                                <span>Layered rice</span>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chickentandoori.jpg/330px-Chickentandoori.jpg" alt="Tandoori Chicken from India" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Tandoori Chicken</h3>
+                            <p>Spiced yogurt-marinated chicken roasted until smoky and charred.</p>
+                            <div class="gallery-card-meta">
+                                <span>Roasted chicken</span>
+                                <span>India</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Asia</span>
+                        <h2>Japan</h2>
+                        <p>Japanese favorites on this page mix clean presentation, noodle bowls, and crisp fried seafood or vegetables.</p>
+                    </div>
+                    <a class="gallery-country-link" href="japan.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Sushi_platter.jpg/330px-Sushi_platter.jpg" alt="Sushi from Japan" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Sushi</h3>
+                            <p>Seasoned rice combined with nori, fish, vegetables, and careful presentation.</p>
+                            <div class="gallery-card-meta">
+                                <span>Rice and nori</span>
+                                <span>Japan</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg/330px-Shoyu_ramen%2C_at_Kasukabe_Station_%282014.05.05%29_1.jpg" alt="Ramen from Japan" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Ramen</h3>
+                            <p>Noodle soup with rich broth, sliced meat, egg, and toppings.</p>
+                            <div class="gallery-card-meta">
+                                <span>Broth noodles</span>
+                                <span>Japan</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tempura_01.jpg/330px-Tempura_01.jpg" alt="Tempura from Japan" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Tempura</h3>
+                            <p>Lightly battered seafood or vegetables fried until delicate and crisp.</p>
+                            <div class="gallery-card-meta">
+                                <span>Crispy fry</span>
+                                <span>Japan</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Europe</span>
+                        <h2>Italy</h2>
+                        <p>Italian cooking here combines pasta, baked comfort food, and simple ingredients used with strong technique.</p>
+                    </div>
+                    <a class="gallery-country-link" href="italy.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/330px-Espaguetis_carbonara.jpg" alt="Carbonara from Italy" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Carbonara</h3>
+                            <p>Silky pasta made with egg, cheese, black pepper, and pancetta.</p>
+                            <div class="gallery-card-meta">
+                                <span>Silky pasta</span>
+                                <span>Italy</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/330px-Pizza_Margherita_stu_spivack.jpg" alt="Margherita Pizza from Italy" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Margherita Pizza</h3>
+                            <p>Classic pizza with tomato sauce, mozzarella, basil, and crisp crust.</p>
+                            <div class="gallery-card-meta">
+                                <span>Classic pizza</span>
+                                <span>Italy</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Lasagna_bolognese.jpg/330px-Lasagna_bolognese.jpg" alt="Lasagna from Italy" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Lasagna</h3>
+                            <p>Layered pasta bake with meat sauce, cheese, and creamy filling.</p>
+                            <div class="gallery-card-meta">
+                                <span>Baked pasta</span>
+                                <span>Italy</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Europe</span>
+                        <h2>Spain</h2>
+                        <p>Spanish dishes in the gallery highlight rice pans, chilled soups, and hearty everyday tapas favorites.</p>
+                    </div>
+                    <a class="gallery-country-link" href="spain.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/01_Paella_Valenciana_original.jpg/330px-01_Paella_Valenciana_original.jpg" alt="Paella from Spain" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Paella</h3>
+                            <p>Saffron rice pan loaded with vegetables, seafood, or chicken.</p>
+                            <div class="gallery-card-meta">
+                                <span>Rice pan</span>
+                                <span>Spain</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Gazpacho_Malague%C3%B1o_con_su_%E2%80%9Cpica%C3%ADto%E2%80%9D_-_Moreno%2C_Playa_Burriana_%28cropped%29.jpg/330px-Gazpacho_Malague%C3%B1o_con_su_%E2%80%9Cpica%C3%ADto%E2%80%9D_-_Moreno%2C_Playa_Burriana_%28cropped%29.jpg" alt="Gazpacho from Spain" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Gazpacho</h3>
+                            <p>Cold tomato soup served fresh with vegetables and olive oil.</p>
+                            <div class="gallery-card-meta">
+                                <span>Chilled soup</span>
+                                <span>Spain</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg/330px-Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg" alt="Spanish omelette from Spain" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Spanish Omelette</h3>
+                            <p>Potato and egg tortilla cooked until thick, soft, and golden.</p>
+                            <div class="gallery-card-meta">
+                                <span>Potato tortilla</span>
+                                <span>Spain</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Americas</span>
+                        <h2>Mexico</h2>
+                        <p>Mexican favorites here bring smoky meat, fresh avocado, crunch, chili, and strong street-food energy.</p>
+                    </div>
+                    <a class="gallery-country-link" href="mexico.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tacos-al-Pastor.jpg/330px-Tacos-al-Pastor.jpg" alt="Tacos al Pastor from Mexico" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Tacos al Pastor</h3>
+                            <p>Marinated pork tacos served with pineapple, onion, and cilantro.</p>
+                            <div class="gallery-card-meta">
+                                <span>Street tacos</span>
+                                <span>Mexico</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Guacamole_IMGP1271.jpg/330px-Guacamole_IMGP1271.jpg" alt="Guacamole from Mexico" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Guacamole</h3>
+                            <p>Mashed avocado dip with lime, onion, herbs, and chili.</p>
+                            <div class="gallery-card-meta">
+                                <span>Fresh avocado dip</span>
+                                <span>Mexico</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chilaquiles_at_the_Grand_Cantina%2C_Windsor%2C_Ontario%2C_2025-09-01_04.jpg/330px-Chilaquiles_at_the_Grand_Cantina%2C_Windsor%2C_Ontario%2C_2025-09-01_04.jpg" alt="Chilaquiles from Mexico" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Chilaquiles</h3>
+                            <p>Tortilla chips simmered in sauce and topped with cheese or egg.</p>
+                            <div class="gallery-card-meta">
+                                <span>Sauced tortillas</span>
+                                <span>Mexico</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="gallery-section">
+                <div class="gallery-section-header">
+                    <div>
+                        <span class="gallery-region">Middle East &amp; Africa</span>
+                        <h2>Morocco</h2>
+                        <p>Moroccan recipes here focus on slow braises, warm spice, grains, and sweet-salty combinations.</p>
+                    </div>
+                    <a class="gallery-country-link" href="morocco.html">Open Country Page</a>
+                </div>
+                <div class="gallery-section-grid">
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tajine-marocain-un-plat-varie-et-sain_%28cropped%29.jpg/330px-Tajine-marocain-un-plat-varie-et-sain_%28cropped%29.jpg" alt="Tagine from Morocco" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Tagine</h3>
+                            <p>Slow-braised dish with meat, vegetables, fruit, and warm spice.</p>
+                            <div class="gallery-card-meta">
+                                <span>Slow braise</span>
+                                <span>Morocco</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg/330px-Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg" alt="Couscous from Morocco" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Couscous</h3>
+                            <p>Steamed semolina served with vegetables, broth, and meat.</p>
+                            <div class="gallery-card-meta">
+                                <span>Steamed grains</span>
+                                <span>Morocco</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="gallery-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Bisteeya.jpg/330px-Bisteeya.jpg" alt="Pastilla from Morocco" loading="lazy" referrerpolicy="no-referrer">
+                        <div class="gallery-card-body">
+                            <h3>Pastilla</h3>
+                            <p>Pastry pie filled with savory spiced meat and delicate sweetness.</p>
+                            <div class="gallery-card-meta">
+                                <span>Pastry pie</span>
+                                <span>Morocco</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </article>
+        </section>
+
+        <p class="gallery-credit">Recipe photos are loaded from Wikipedia Commons thumbnail images.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 RecipeBook. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
